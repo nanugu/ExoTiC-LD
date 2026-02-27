@@ -1,7 +1,7 @@
 import os
 import pickle
 import numpy as np
-from importlib.resources import files
+from importlib import resources
 from scipy.spatial import KDTree
 
 from exotic_ld.ld_requests import download
